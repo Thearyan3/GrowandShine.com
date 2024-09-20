@@ -50,9 +50,9 @@ header{
     display: flex;
     justify-content: space-between;
     padding: 50px 150px;
+    padding-bottom: 15px;
 
     & .box11{
-
             & .image{
                 text-align: end;     
             }
@@ -83,126 +83,132 @@ header{
             }
         }
     }
-}
-
-/* .section1{
-    display: flex;
-    justify-content: space-between;
-    padding: 50px 155px;
-
-
-    & .box11{
-
-
-        & h1{
-            margin-top: 35px;
-            font-size: 66px;
-            text-transform: uppercase;
-            letter-spacing: 3px;
-        }
-
-        & h3{
-            font-size: 30px;
-            margin-top: -20px;
-        }
-
-        & .parent{
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
-        }
-
-        & .an{
-            border: 1px solid;
-            width: 143px;
-            padding: 13px;
-            padding-left: 35px;
-            margin-top: 30px;
-            margin-bottom: 78px;
-        }
-
-        & a{
-            text-decoration: none;
-            font-size: 17px;
-        }
-
-        & .image{
-            text-align: end;
-            margin-right: 150px;
-        }
-    }
 
     & .box22{
-
-
         & .img2{
             text-align: center;
-            margin-bottom: 50px;
+            margin-bottom: 70px;
         }
 
         & h1{
             font-size: 45px;
-            margin-top: 50px;
         }
-    }
-} */
 
-/* header{
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 1px groove rgb(219, 218, 218);
-    padding: 13px 155px;
-    align-items: center;
+        & .italic{
+            font-size: 18px;
+            word-spacing: 3px;
+            margin: 15px 0px;
+            padding: 0px 24px;
+            line-height: 38px;
+            border-left: 4px rgb(236, 236, 10) solid;
+        }
 
+        & p{
+            word-spacing: 3px;
+            line-height: 28px;
+        }
 
-    & .box1{
-    
-    & h1{
-        font-size: 17px;
-        text-transform: capitalize;
+        & a{
+            text-decoration: none;
+            text-transform:uppercase;
+            font-size: 16px;
+            color: #8badd6;
+        }
     }
 }
 
-    & .box2{
+.border{
+   
+    & div{
+        width: 80%;
+        border: 1px rgb(219, 219, 219) groove;
+        margin-left: 150px;
+    }
+}
+
+.section-2{
+            margin-top: 40px;
+            background-color: rgb(104, 56, 188);
+            padding: 20px 0px;
+
+    & .purple1{
         display: flex;
-        gap: 40px;
-        align-items: center;
+        gap: 35px;
+        margin-left: 180px;
 
-    & a{
-        text-decoration: none;
-        background-color: rgb(41, 40, 40);
-        color: white;
-        padding: 14px 33px;
-        border-radius: 30px;
-        transition: all 0.5s linear;
+        & div{
+            color: white;
+        }
+       
+        & .box-31{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            gap: 35px;
 
-    &:hover{
-        background-color: rgb(109, 103, 103);
+            & .box-311{
+                font-size: 17px;
+                font-weight: 700;
+                line-height: 30px;
+
+        }
+
+        & .box-312{    
+                    line-height: 30px;
+                    font-size: 17px;
+
+            &::first-line{
+                font-weight: 700;
+            }
+        }
+
+        & .box-313{
+            font-size: 17px;
+            font-weight: 700;
+            }
+}
+
+        & .box-32{
+            font-size: 17px;
+            line-height: 30px;
+
+          & span{
+            font-weight: 700;
+            margin-left: 150px;
+          }
+
+          & #underline{
+            text-decoration: underline;
+        }
+        }
     }
 }
 
-    & span{
-        font-size: 22px;
+.section-3{
+    background-color: rgb(222, 219, 226);
+    padding: 20px 0;
+    padding-bottom: 50px;
+
+    & .silver{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 25px;
+        margin-left: 180px;
+        font-size: 15px;
+    }
+
+    & .box-41{
+
+        & h1{
+            font-size: 35px;
+        }
+    }
+
+    & .box-43{
+
+        &::first-line{
+            font-weight: 700;
+        }
     }
 }
-} */
-
-/* @media (width < 500px) {
-        header{
-            background-color: teal;
-            padding: 13px 40px;
-            margin: auto;
-        }
-
-        .abc{
-            display: none;
-        }
-
-        .box11{
-            font-size: 15px;
-        }
-
-        .box1{
-            font-size: 15px;
-        }
-    } */
