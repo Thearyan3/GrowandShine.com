@@ -277,26 +277,23 @@ header{
 }
 
 .footer{
-        margin-left: 170px;
         padding-bottom: 60px;
-        display: flex;
-        justify-content: space-around;
-        flex-direction: row;
+        margin-left: 170px;
 
     & .parent2{
         display: flex;
         justify-content: space-around;
         flex-direction: row;
         padding: 60px 0px;
-        padding-bottom: 0px;
-        width: 50%;
+        padding-bottom: 20px;
+        width: 60%;
         gap: 25px;
 
         & .box-71{
             display: flex;
             flex-direction: column;
             justify-content: space-around;
-            gap: 40px;
+            gap: 30px;
 
             & .box-711{
                 border: 1px solid black;
@@ -312,6 +309,10 @@ header{
                 padding-left: 27px;
                 width: 230px;
 
+                &:hover{
+                    background-color: rgb(91, 90, 90);
+                }
+
                 & a{
                     color: white;
                     text-decoration: none;
@@ -321,20 +322,42 @@ header{
         }
 
         & .box-72{
-            
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+
             & .box-721{
                 font-weight: 600;
-                margin-bottom: 15px;
-                line-height: 30px;
+                margin-top: -12px;
             }
             & .box-722{
-                margin-bottom: 15px;
-                text-align: start;
+                margin-top: -22px;
+                /* text-align: start; */
                 font-size: 15px;
-                line-height: 30px;
+                line-height: 25px;
             }
             & .box-723{
                 font-size: 15px;
+                line-height: 25px;
+                margin-top: -22px;
+            }
+        }
+
+        & .box-73{
+
+            & .box-731{
+                text-transform: uppercase;
+                font-weight: 600;
+                margin-bottom: 20px;
+                margin-top: 6px;
+            }
+            & .box-732{
+
+
+                & a{
+                    text-decoration: none;
+                    color: black;
+                }
             }
         }
     }
