@@ -96,11 +96,17 @@ header{
 
         & .italic{
             font-size: 18px;
-            word-spacing: 3px;
+            word-spacing: 1px;
             margin: 15px 0px;
             padding: 0px 24px;
             line-height: 38px;
             border-left: 4px rgb(236, 236, 10) solid;
+
+            & i{
+                font-family: "Poppins", sans-serif;
+                font-weight: 400;
+                font-style: italic;
+            }
         }
 
         & p{
@@ -199,13 +205,17 @@ header{
     }
 
     & .box-41{
-
         & h1{
             font-size: 35px;
         }
     }
 
+    & .box-42{
+        line-height: 26px;
+    }
+
     & .box-43{
+        line-height: 26px;
 
         &::first-line{
             font-weight: 700;
